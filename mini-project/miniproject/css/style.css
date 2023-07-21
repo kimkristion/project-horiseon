@@ -1,0 +1,48 @@
+* body {
+    background-color: pink;
+}
+
+
+.nav-bar {
+    background-color: green;
+}
+
+* ul {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    gap: 20px;
+    padding: 20px;
+   
+}
+
+* a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(73, 5, 5);
+}
+
+
+.middle {
+    background-color: blanchedalmond;
+    margin-top: 0px;
+}
+
+.coming-soon {
+    display: flex;
+    justify-content: center;
+}
+
+#fig {
+    text-align: center;
+}
+
+
+
