@@ -1,0 +1,46 @@
+* {
+    background-color: rgb(43, 44, 54);
+    box-sizing: content-box;
+}
+
+:root {
+    --header: rgb(160, 20, 160);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    color: var(--header);
+    margin: 20px;
+    text-align: justify;
+  }
+
+h1 {
+    font-size: 40px;
+
+}
+
+header p {
+    font-size: 16px;
+    color: white;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.flexbox-row h2 {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 40px;
+    margin-right: 75%;
+    font-size: 35px;
+    border: solid white;
+    border-radius: 10px;
+    color: var(--header);
+    padding: 10px;
+
+}
